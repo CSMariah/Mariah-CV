@@ -1,0 +1,125 @@
+h1 {
+  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #810000;
+}
+h2 {
+  color:#e97171;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+h3 {
+  font-family: "Montserrat";
+  color: #810000;
+  font-weight: 400;
+}
+td {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1.5%;
+}
+a:link {
+  color:#e97171;
+}
+
+/* visited link */
+a:visited {
+    color:#e97171;
+}
+
+/* mouse over link */
+a:hover {
+  color:#e97171;
+}
+
+/* selected link */
+a:active {
+    color:#e97171;
+}
+
+/* Navnar Section */
+#nav {
+position: fixed;
+width: 100%;
+background-color: #e97171;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+/* Title Section */
+#title {
+padding:10% 10% 10% 10%;
+background-color: #ffdbc5;
+}
+#Me {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.description {
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+    color: #810000;
+}
+/* Sections */
+.section {
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-style: dashed;
+  border-color: #e97171;
+  margin: 0.5%;
+}
+.pinkText {
+  color: #e97171;
+}
+
+/* Skills */
+.skills {
+  padding: 2%;
+}
+/* Contact Me */
+#contact {
+text-align: center;
+}
+.socialApp {
+  padding: 1%;
+}
+#contact img:hover {
+    background-color: #e97171;
+}
+/* Footer */
+.footer {
+  font-family:Courier New;
+  background-color: #810000;
+  color: #fff;
+  text-align: center;
+  padding: 3%;
+}
+.underLine a {
+  text-decoration: underline;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #Me {
+    float: none;
+    text-align: center;
+  }
+}
