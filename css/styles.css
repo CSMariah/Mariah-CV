@@ -66,9 +66,7 @@ background-color: #ffdbc5;
 #Me {
   height: 200px;
   width: 200px;
-  border-radius: 100%;
   float: left;
-  margin: 15px;
 }
 .description {
   margin: 10px;
